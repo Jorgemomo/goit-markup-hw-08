@@ -774,6 +774,13 @@ article:not(:last-child) {
   background: var(--team-background);
 }
 
+@media screen and (min-width: 180px) and (max-width: 480px) {
+
+  .banner-team {
+    width: 480px;
+  }
+}
+
 #team {
   width: 480px;
   margin: 0;
@@ -985,7 +992,7 @@ article:not(:last-child) {
   background: var(--title-footer-background);
 }
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (min-width: 180px) and (max-width: 480px) {
   .banner-footer {
     width: 480px;
   }
