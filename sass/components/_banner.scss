@@ -12,7 +12,15 @@
       background-image: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7)), url('../images/banner-index-desktop@2x.jpg');
     }
 }
-  
+
+@media screen and (min-width: 180px) and (max-width: 480px) {
+
+  .banner,
+  hr {
+    width: 480px;
+  }
+}
+
 @media screen and (min-width: 768px) {
     .banner {
       background-color: var(--text-color);

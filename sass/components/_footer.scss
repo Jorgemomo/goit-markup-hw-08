@@ -2,6 +2,12 @@
   background: var(--title-footer-background);
 }
 
+@media screen and (min-width: 180px) and (max-width: 480px) {
+  .banner-footer {
+    width: 480px;
+  }
+}
+
 .footer-flex {
   display: flex;
   flex-direction: column;

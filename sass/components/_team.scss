@@ -2,6 +2,13 @@
   background: var(--team-background);
 }
 
+@media screen and (min-width: 180px) and (max-width: 480px) {
+
+  .banner-team {
+    width: 480px;
+  }
+}
+
 #team {
   width: 480px;
   margin: 0;
