@@ -742,12 +742,11 @@ article:not(:last-child) {
 
 .job__images {
   list-style: none;
-  margin: 10px;
 }
 
 .job__images--title {
   position: relative;
-  top: -75px;
+  top: -68px;
   margin-right: 1px;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -769,6 +768,16 @@ article:not(:last-child) {
 @media (max-width: 1199px) {
   .job {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .job {
+    padding: 0 100px;
+  }
+
+  .section .job {
+    margin-bottom: 0;
   }
 }
 
