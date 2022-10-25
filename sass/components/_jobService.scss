@@ -1,4 +1,4 @@
-.job-service {
+.job__service {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -15,14 +15,13 @@
   gap: 30px;
 }
 
-.job-images {
+.job__images {
   list-style: none;
-  margin: 10px;
 }
 
-.job-images_title {
+.job__images--title {
   position: relative;
-  top: -75px;
+  top: -68px;
   margin-right: 1px;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -44,5 +43,15 @@
 @media (max-width: 1199px) {
   .job {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .job {
+    padding: 0 100px;
+  }
+
+  .section .job {
+    margin-bottom: 0;
   }
 }

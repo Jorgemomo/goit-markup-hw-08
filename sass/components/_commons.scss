@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+:root {
+    --text-color: black;
+    --body-background-color: white;
+    --title-footer-background: #2f303a;
+    --change-color: #2196f3;
+    --link-title-color: #212121;
+    --link-ad-description-color: #757575;
+    --team-background: #f5f4fa;
+    --border-color: #eeeeee;
+    --color-social-links-team: #afb1b8;
+}
+
 body {
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
@@ -11,51 +23,51 @@ body {
     background-color: var(--body-background-color);
     color: var(--text-color);
 }
-  
+
 a:hover {
     color: var(--change-color);
 }
-  
-.none-style {
+
+.none__style {
     list-style: none;
 }
-  
+
 .container {
     width: 480px;
     margin: 0 auto;
 }
-  
+
 @media screen and (min-width: 768px) {
-  .container {
-      width: 768px;
+    .container {
+        width: 768px;
     }
 }
-  
+
 @media screen and (min-width: 1200px) {
     .container {
-      width: 1200px;
+        width: 1200px;
     }
 }
-  
+
 .section {
     margin-top: 60px;
     margin-bottom: 60px;
 }
-  
+
 @media screen and (min-width: 768px) {
     .section {
-      margin-top: 60px;
-      margin-bottom: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 }
-  
+
 @media screen and (min-width: 1200px) {
     .section {
-      margin-top: 94px;
-      margin-bottom: 94px;
+        margin-top: 94px;
+        margin-bottom: 94px;
     }
 }
-  
+
 img {
     display: block;
     width: 100%;

@@ -1,4 +1,4 @@
-.menu-toggle {
+.menu__toggle {
   margin: 0;
   padding: 10px 0;
   background-color: transparent;
@@ -7,29 +7,33 @@
   border-radius: 50%;
   outline: none;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     fill: var(--change-color);
   }
 }
 
 @media screen and (max-width: 767px) {
-  .nav-menu, .left-header, .nav ul {
+
+  .nav__menu,
+  .left__header,
+  .nav ul {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .menu-toggle {
+  .menu__toggle {
     display: none;
   }
 }
 
-.menu-container {
+.menu__container {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: var(--body-background-color);
   z-index: 999;
   transform: translateX(100%);
@@ -39,7 +43,7 @@
     transform: translateX(0);
   }
 
-  .menu-toggle {
+  .menu__toggle {
     position: absolute;
     top: 2px;
     right: 45px;
@@ -53,7 +57,7 @@
   padding-top: 50px;
 }
 
-.mobile-nav {
+.mobile__nav {
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
@@ -61,11 +65,11 @@
   color: var(--link-title-color);
 }
 
-.mobile-nav_style {
+.mobile__nav--style {
   margin-bottom: 32px;
 }
 
-.mobile-menu {
+.mobile__menu {
   list-style: none;
 
   .select:visited {
@@ -73,11 +77,11 @@
   }
 }
 
-.mobile-address {
+.mobile__address {
   margin-top: 250px;
 }
 
-.mobile-address-contact {
+.mobile__address__contact {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -90,11 +94,11 @@
   }
 }
 
-.nav-link-ad_style:hover {
+.nav__link__ad--style:hover {
   color: var(--change-color);
 }
 
-.mobile-social {
+.mobile__social {
   display: flex;
   gap: 20px;
   margin-top: 64px;
@@ -104,7 +108,7 @@
   letter-spacing: 0.02em;
 }
 
-.mobile-social-link {
+.mobile__social__link {
   text-decoration: none;
   color: var(--change-color);
 }
