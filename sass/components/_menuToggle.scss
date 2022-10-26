@@ -100,7 +100,8 @@
 
 .mobile__social {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 64px;
   font-weight: 500;
   font-size: 18px;

@@ -3,18 +3,6 @@
     padding: 0;
 }
 
-:root {
-    --text-color: black;
-    --body-background-color: white;
-    --title-footer-background: #2f303a;
-    --change-color: #2196f3;
-    --link-title-color: #212121;
-    --link-ad-description-color: #757575;
-    --team-background: #f5f4fa;
-    --border-color: #eeeeee;
-    --color-social-links-team: #afb1b8;
-}
-
 body {
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
@@ -33,7 +21,7 @@ a:hover {
 }
 
 .container {
-    width: 480px;
+    width: 100%;
     margin: 0 auto;
 }
 
